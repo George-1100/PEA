@@ -43,6 +43,46 @@ Investigate the phishing email and attachment to collect useful artifacts using 
 
    ![PEA 1 10](https://github.com/George-1100/PEA/assets/76154087/dee85b72-3561-4e42-b4d6-9bd8e985e98e)
 
+# Phishing Email Analysis -2
+
+1. What is the sending email address?
+   amazon@zyevantoby.cn
+   
+2.What is the recipient email address?
+  saintington73@outlook.com
+  
+3. What is the subject line of the email?
+   Your Account has been locked
+   
+4. What company is the attacker trying to imitate?
+   Amazon
+   
+5. What is the date and time the email was sent? (As copied from a text editor)
+   Wed, 14 Jul 2021 01:40:32 +0900
+
+   ![image](https://github.com/George-1100/PEA/assets/76154087/ff557255-5acb-4b7a-b3ee-64106547e041)
+
+7. What is the URL of the main call-to-action button?
+   https://emea01.safelinks.protection.outlook.com/? 
+url=https%3A%2F%2Famaozn.zzyuchengzhika.cn%2F%3Fmailtoken%3Dsaintington73%40outlook.com&data=04%7C01%7C%7C70072381ba6e49d1d12d08d94632811e%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637618004988892053%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=oPvTW08ASiViZTLfMECsvwDvguT6ODYKPQZNK3203m0%3D&reserved=0
+
+8. Look at the URL using URL2PNG. What is the first sentence (heading) displayed on this site? (regardless of whether you think the site is malicious or not)
+   The page that you are trying to acces cannot be loaded
+
+   ![image](https://github.com/George-1100/PEA/assets/76154087/60f965ac-5405-4444-b302-67a4fb27d868)
+
+9 . When looking at the main body content in a text editor, what encoding scheme is being used?
+   base64
+
+  ![image](https://github.com/George-1100/PEA/assets/76154087/5b07917a-707d-4d2d-826f-4af9a19d1dae)
+
+
+10. What is the URL used to retrieve the company’s logo in the email?
+   https://images.squarespace-cdn.com/content/52e2b6d3e4b06446e8bf13ed/1500584238342-OX2L298XVSKF8AO6I3SV/amazon-logo?format=750w&amp;content-type=image%2Fpng
+
+11. For some unknown reason one of the URLs contains a Facebook profile URL. What is the username (not necessarily the display name) of this account, based on the URL?
+    amir.boyka.7
+
 
  
 
