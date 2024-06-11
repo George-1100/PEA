@@ -86,7 +86,39 @@ url=https%3A%2F%2Famaozn.zzyuchengzhika.cn%2F%3Fmailtoken%3Dsaintington73%40outl
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Phishing Email - Letsdefend
- 
+
+ # Your email address has been leaked and you receive an email from Paypal in German. Try to analyze the suspicious email.
+
+1. What is the return path of the email?
+
+bounce@rjttznyzjjzydnillquh.designclub.uk.com
+
+Check the "Return-Path" field. Remove the < > chars.
+
+
+![image](https://github.com/George-1100/PEA/assets/76154087/81c21885-7132-4813-bd08-ff02804ecaa6)
+
+
+2. What is the domain name of the url in this mail?
+storage.googleapis.com
+
+It is in the body
+
+
+3. Is the domain mentioned in the previous question suspicious?
+yes
+
+4. What is the body SHA-256 of the domain?
+
+13945ecc33afee74ac7f72e1d5bb73050894356c4bf63d02a1a53e76830567f5
+
+In VirusTotal, scan the full domain (Question 2) and check the "Details" tab.
+
+
+![image](https://github.com/George-1100/PEA/assets/76154087/57993362-7e94-43c6-a1a9-5037a24e5f2e)
+
+5. Is this email a phishing email?
+yes
 
 
 
